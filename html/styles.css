@@ -1,0 +1,225 @@
+.top_nav {
+  font-size: 15px;
+  color: white;
+  background-color: rgb(70, 130, 180);
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-family: "tahoma";
+}
+.table_2 {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.table_3 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "tahoma";
+}
+.cross {
+  width: 115px;
+  height: 150px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+.other_ministries {
+  text-align: center;
+  font-size: 200%;
+  font-family: "tahoma";
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+}
+.ministries {
+  text-align: center;
+  font-size: 240%;
+  font-family: "tahoma";
+  color: rgb(70, 130, 180);
+  margin-bottom: 20px;
+}
+.bible {
+  text-align: center;
+  font-size: small;
+  font-family: "tahoma";
+  word-spacing: 0%;
+  margin-top: 15px;
+  line-height: 4px;
+}
+.free_babineaux {
+  font-size: 25px;
+  text-align: left;
+  margin-left: 360px;
+  font-family: "tahoma";
+  padding: 0%;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: rgb(70, 130, 180);
+}
+.huell {
+  text-align: left;
+  font-size: 100%;
+  font-family: "tahoma";
+  margin-left: 360px;
+  line-height: 5px;
+
+  margin-top: 0;
+}
+.save_huell {
+  text-align: left;
+  font-size: x-large;
+  font-family: "tahoma";
+  margin-left: 360px;
+
+  padding: 0;
+  color: rgb(255, 0, 216);
+}
+.other_ministries {
+  margin-bottom: 2px;
+  font-family: "tahoma";
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  border-style: dotted;
+  border-color: black;
+  border-bottom: 1px;
+}
+.head_1 {
+  margin-bottom: 2px;
+  font-size: large;
+}
+.entertainment {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: small;
+  color: rgb(160, 160, 160);
+  text-align: center;
+  line-height: 0px;
+}
+.privacy {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: small;
+  color: rgb(160, 160, 160);
+  text-align: center;
+  line-height: 10px;
+}
+.fiction {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-small;
+  color: rgb(160, 160, 160);
+  text-align: center;
+  line-height: 2px;
+}
+a.fiction {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-small;
+  color: rgb(160, 160, 160);
+  text-align: center;
+  line-height: 2px;
+}
+.pastor {
+  float: left;
+  width: 49%;
+}
+body {
+  margin: 0px;
+  background-image: url(https://thumbs.dreamstime.com/b/grainy-white-paper-surface-as-texture-background-close-up-macro-200678301.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.l1,
+.l2,
+.l3,
+.l4,
+.l5 {
+  font-size: small;
+}
+.p1 {
+  color: rgb(160, 160, 160);
+}
+.home:hover,
+.calendar:hover,
+.ministry:hover,
+.testimonials:hover,
+.contact_us:hover {
+  color: rgb(0, 0, 139);
+}
+
+.now:link {
+  color: blue;
+}
+
+.now:visited {
+  color: orange;
+}
+
+.now:hover {
+  color: magenta;
+}
+
+.now:active {
+  color: lime;
+}
+.other_ministries,
+.head_1,
+.l1,
+.l2,
+.l3,
+.l4,
+.l5 {
+  border: 4px dotted black;
+  border-collapse: collapse;
+}
+.head_1,
+.l2,
+.l4 {
+  background-color: white;
+}
+.l1,
+.l3,
+.l5 {
+  background-color: lightgray;
+}
+.head_1:hover,
+.l1:hover,
+.l2:hover,
+.l3:hover,
+.l4:hover,
+.l5:hover {
+  color: lightcoral;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}

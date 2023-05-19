@@ -1,0 +1,13 @@
+git config --global user.name  ""
+git config --global user.email  ""
+
+git clone https://github.com/jymrae/bootcamp  (for bootcamp)= to add local repository
+
+
+cd first-repository - if fatal
+git status
+
+git add . -add file
+git commit -m "adding home page index.html" --to push files
+
+git push- to save changes
