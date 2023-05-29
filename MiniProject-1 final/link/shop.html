@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Pacifico&family=Permanent+Marker&family=Rubik:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/c26cd2166c.js"></script>
+    <title>Document</title>
+  </head>
+  <body  >
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">SOMETHING's FISHY</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">TRADE</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                PRODUCT
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#bestseller">Best seller</a></li>
+                <li><a class="dropdown-item" href="#top_picks">Top picks</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#topseller">Top Traders</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="search px-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn0" type="submit">Search</button>
+            <a href="cart.html"><img style="width: 30px; margin-left: auto;" src="../img/cart.png" alt="cart"></a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+        <div
+          id="aquascape"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="3500"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#hotel-pics"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#hotel-pics"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#hotel-pics"
+              data-bs-slide-to="2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#hotel-pics"
+              data-bs-slide-to="3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img style="height: 500px;" src="../img/aquascaping7.jpg" class="d-block w-100" alt="hotel front" />
+              <div class="carousel-caption">
+                <h5>Thailand Champion</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img style="height: 500px;" src="../img/aquascaping8.jpg" class="d-block w-100" alt="hotel side" />
+              <div class="carousel-caption">
+                <h5>US Champion</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img style="height: 500px;" src="../img/aquascaping9.jpg" class="d-block w-100" alt="hotel side" />
+              <div class="carousel-caption">
+                <h5>Brazil Champion</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <img style="height: 500px;" src="./img/aquascaping10.jpg" class="d-block w-100" alt="hotel side" />
+                <div class="carousel-caption">
+                  <h5>Spain Champion</h5>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#hotel-pics"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#hotel-pics"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+    </div>
+  
+   
+  
+       <section class="shop" id="shop">
+        <div class="row py-5">
+            <div class="col-lg-8 m-auto text-center" id="bestseller">
+                <h1>BEST SELLER</h1>
+                <h6>Pick our best product</h6>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <div class="card border-1 bg-light mb-2">
+                        <div class="card-body">
+                            <img style="width: 250px; height: 150px;" src="../img2/albino_koi.jpg" class="img-fluid" alt="albinokoi">
+                        </div>
+                    </div>
+                    <h6>Albino koi Guppy</h6>
+                    <p style="color:gray text">Fish</p>
+                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                    <p>160php</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img style="width: 250px; height: 150px;" src="../img2/aquascaping1.jpg" class="img-fluid" alt="aquascape1">
+                        </div>
+                    </div>
+                    <h6>Aquascape</h6>
+                    <p style="color:gray text">Aquarium</p>
+                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                    <p>100php</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img style="width: 250px; height: 150px;" src="../img2/black_crowntail_b.jpg" class="img-fluid" alt="crowntail">
+                        </div>
+                    </div>
+                    <h6>Crown tail betta</h6>
+                    <p style="color:gray text">Fish</p>
+                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                    <p>100php</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img style="width: 250px; height: 150px;" src="../img2/copper_nemo_b.jpg" class="img-fluid" alt="nemo">
+                        </div>
+                    </div>
+                    <h6>Copper Nemo betta</h6>
+                    <p style="color:gray text">Fish</p>
+                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                    <p>100php</p>
+                </div>     
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img style="width: 250px; height: 150px;" src="../img2/dwarf_hairgrass.jpg" class="img-fluid" alt="hairgrass">
+                        </div>
+                    </div>
+                    <h6>Hair Grass</h6>
+                    <p style="color:gray text">Aquatic Plant</p>
+                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                    <p>100php</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img style="width: 250px; height: 150px;" src="../img2/monte_carlo.jpg" class="img-fluid" alt="montecarlo">
+                        </div>
+                    </div>
+                    <h6>Monte Carlo</h6>
+                    <p style="color:gray text">Aquatic Plant</p>
+                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                    <p>100php</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img style="width: 250px; height: 150px;" src="../img2/king_cobra_g.jpg" class="img-fluid" alt="kingcobra">
+                        </div>
+                    </div>
+                    <h6>King Cobra</h6>
+                    <p style="color:gray text">Fish</p>
+                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                    <p>100php</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img style="width: 250px; height: 150px;" src="../img2/aquascaping2.jpg" class="img-fluid" alt="aquascape">
+                        </div>
+                    </div>
+                    <h6>Aquascape</h6>
+                    <p style="color:gray text">Aquascape</p>
+                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                    <p>100php</p>
+                </div>     
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img style="width: 250px; height: 150px;" src="../img2/dumbo_ear_mosaic.jpg" class="img-fluid" alt="dumbo ear mosaic">
+                        </div>
+                    </div>
+                    <h6>Dumbo Ear Mosaic Guppy</h6>
+                    <p style="color:gray text">Aquascape</p>
+                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                    <p>100php</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img style="width: 250px; height: 150px;" src="../img2/dwarf_hairgrass.jpg" class="img-fluid" alt="dwarf_hairgrass">
+                        </div>
+                    </div>
+                    <h6>Dwarf Hair Grass</h6>
+                    <p style="color:gray text">Aquatic plant</p>
+                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                    <p>100php</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img style="width: 250px; height: 150px;" src="../img2/goldfish2.jpg" class="img-fluid" alt="Black dotted oranda">
+                        </div>
+                    </div>
+                    <h6>Black Dotted Oranda</h6>
+                    <p style="color:gray text">Fish</p>
+                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                    <p>100php</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img style="width: 250px; height: 150px;" src="../img2/hb_white_g.jpg" class="img-fluid" alt="hb white">
+                        </div>
+                    </div>
+                    <h6>HB white guppy</h6>
+                    <p style="color:gray text">Fish</p>
+                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                    <p>100php</p>
+                </div>     
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img style="width: 250px; height: 150px;" src="../img2/water_wisteria.jpg" class="img-fluid" alt="wistera">
+                        </div>
+                    </div>
+                    <h6>Water Wisteria</h6>
+                    <p style="color:gray text">Aquatic plant</p>
+                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                    <p>100php</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img style="width: 250px; height: 150px;" src="../img2/arowana_red.jpg" class="img-fluid" alt="red arowana">
+                        </div>
+                    </div>
+                    <h6>Red Arowana</h6>
+                    <p style="color:gray text">Fish</p>
+                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                    <p>100php</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img style="width: 250px; height: 150px;" src="../img2/buddha_aquascaping.jpg" class="img-fluid" alt="buddha">
+                        </div>
+                    </div>
+                    <h6>Buddha Aquascape</h6>
+                    <p style="color:gray text">Aquarium</p>
+                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                    <p>100php</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <a href="shop.html"><button class="btn2 m-5">Show more</button></a> 
+
+                </div>
+                <div class="row py-5">
+                    <div class="col-lg-8 m-auto text-center" id="top_picks">
+                        <h1>TOP PICKS</h1>
+                        <h6>Top picks for the last 24 hours</h6>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 text-center">
+                            <div class="card border-1 bg-light mb-2">
+                                <div class="card-body">
+                                    <img style="width: 250px; height: 150px;" src="../img2/albino_koi.jpg" class="img-fluid" alt="albinokoi">
+                                </div>
+                            </div>
+                            <h6>Albino koi Guppy</h6>
+                            <p style="color:gray text">Fish</p>
+                            <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                            <p>160php</p>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <div class="card border-0 bg-light mb-2">
+                                <div class="card-body">
+                                    <img style="width: 250px; height: 150px;" src="../img2/aquascaping1.jpg" class="img-fluid" alt="aquascape1">
+                                </div>
+                            </div>
+                            <h6>Aquascape</h6>
+                            <p style="color:gray text">Aquarium</p>
+                            <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                            <p>100php</p>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <div class="card border-0 bg-light mb-2">
+                                <div class="card-body">
+                                    <img style="width: 250px; height: 150px;" src="../img2/black_crowntail_b.jpg" class="img-fluid" alt="crowntail">
+                                </div>
+                            </div>
+                            <h6>Crown tail betta</h6>
+                            <p style="color:gray text">Fish</p>
+                            <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                            <p>100php</p>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <div class="card border-0 bg-light mb-2">
+                                <div class="card-body">
+                                    <img style="width: 250px; height: 150px;" src="../img2/copper_nemo_b.jpg" class="img-fluid" alt="nemo">
+                                </div>
+                            </div>
+                            <h6>Copper Nemo betta</h6>
+                            <p style="color:gray text">Fish</p>
+                            <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                            <p>100php</p>
+                        </div>     
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 text-center">
+                            <div class="card border-0 bg-light mb-2">
+                                <div class="card-body">
+                                    <img style="width: 250px; height: 150px;" src="../img2/dwarf_hairgrass.jpg" class="img-fluid" alt="hairgrass">
+                                </div>
+                            </div>
+                            <h6>Hair Grass</h6>
+                            <p style="color:gray text">Aquatic Plant</p>
+                            <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                            <p>100php</p>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <div class="card border-0 bg-light mb-2">
+                                <div class="card-body">
+                                    <img style="width: 250px; height: 150px;" src="../img2/monte_carlo.jpg" class="img-fluid" alt="montecarlo">
+                                </div>
+                            </div>
+                            <h6>Monte Carlo</h6>
+                            <p style="color:gray text">Aquatic Plant</p>
+                            <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                            <p>100php</p>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <div class="card border-0 bg-light mb-2">
+                                <div class="card-body">
+                                    <img style="width: 250px; height: 150px;" src="../img2/king_cobra_g.jpg" class="img-fluid" alt="kingcobra">
+                                </div>
+                            </div>
+                            <h6>King Cobra</h6>
+                            <p style="color:gray text">Fish</p>
+                            <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                            <p>100php</p>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <div class="card border-0 bg-light mb-2">
+                                <div class="card-body">
+                                    <img style="width: 250px; height: 150px;" src="../img2/aquascaping2.jpg" class="img-fluid" alt="aquascape">
+                                </div>
+                            </div>
+                            <h6>Aquascape</h6>
+                            <p style="color:gray text">Aquascape</p>
+                            <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                            <p>100php</p>
+                        </div>     
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 text-center">
+                            <div class="card border-0 bg-light mb-2">
+                                <div class="card-body">
+                                    <img style="width: 250px; height: 150px;" src="../img2/dumbo_ear_mosaic.jpg" class="img-fluid" alt="dumbo ear mosaic">
+                                </div>
+                            </div>
+                            <h6>Dumbo Ear Mosaic Guppy</h6>
+                            <p style="color:gray text">Aquascape</p>
+                            <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                            <p>100php</p>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <div class="card border-0 bg-light mb-2">
+                                <div class="card-body">
+                                    <img style="width: 250px; height: 150px;" src="../img2/dwarf_hairgrass.jpg" class="img-fluid" alt="dwarf_hairgrass">
+                                </div>
+                            </div>
+                            <h6>Dwarf Hair Grass</h6>
+                            <p style="color:gray text">Aquatic plant</p>
+                            <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                            <p>100php</p>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <div class="card border-0 bg-light mb-2">
+                                <div class="card-body">
+                                    <img style="width: 250px; height: 150px;" src="../img2/goldfish2.jpg" class="img-fluid" alt="Black dotted oranda">
+                                </div>
+                            </div>
+                            <h6>Black Dotted Oranda</h6>
+                            <p style="color:gray text">Fish</p>
+                            <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                            <p>100php</p>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <div class="card border-0 bg-light mb-2">
+                                <div class="card-body">
+                                    <img style="width: 250px; height: 150px;" src="../img2/hb_white_g.jpg" class="img-fluid" alt="hb white">
+                                </div>
+                            </div>
+                            <h6>HB white guppy</h6>
+                            <p style="color:gray text">Fish</p>
+                            <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                            <p>100php</p>
+                        </div>     
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 text-center">
+                            <div class="card border-0 bg-light mb-2">
+                                <div class="card-body">
+                                    <img style="width: 250px; height: 150px;" src="../img2/water_wisteria.jpg" class="img-fluid" alt="wistera">
+                                </div>
+                            </div>
+                            <h6>Water Wisteria</h6>
+                            <p style="color:gray text">Aquatic plant</p>
+                            <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                            <p>100php</p>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <div class="card border-0 bg-light mb-2">
+                                <div class="card-body">
+                                    <img style="width: 250px; height: 150px;" src="../img2/arowana_red.jpg" class="img-fluid" alt="red arowana">
+                                </div>
+                            </div>
+                            <h6>Red Arowana</h6>
+                            <p style="color:gray text">Fish</p>
+                            <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                            <p>100php</p>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <div class="card border-0 bg-light mb-2">
+                                <div class="card-body">
+                                    <img style="width: 250px; height: 150px;" src="../img2/buddha_aquascaping.jpg" class="img-fluid" alt="buddha">
+                                </div>
+                            </div>
+                            <h6>Buddha Aquascape</h6>
+                            <p style="color:gray text">Aquarium</p>
+                            <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                            <p>100php</p>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <a href="shop.html"><button class="btn2 m-5">Show more</button></a> 
+        
+                        </div>
+                        <div class="row py-5">
+                            <div class="col-lg-8 m-auto text-center" id="topseller">
+                                <h1>TOP SELLER</h1>
+                                <h6>Pick our best product from our top sellers</h6>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 text-center">
+                                    <div class="card border-1 bg-light mb-2">
+                                        <div class="card-body">
+                                            <img style="width: 250px; height: 150px;" src="../img2/albino_koi.jpg" class="img-fluid" alt="albinokoi">
+                                        </div>
+                                    </div>
+                                    <h6>Albino koi Guppy</h6>
+                                    <p style="color:gray text">Fish</p>
+                                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                                    <p>160php</p>
+                                </div>
+                                <div class="col-lg-3 text-center">
+                                    <div class="card border-0 bg-light mb-2">
+                                        <div class="card-body">
+                                            <img style="width: 250px; height: 150px;" src="../img2/aquascaping1.jpg" class="img-fluid" alt="aquascape1">
+                                        </div>
+                                    </div>
+                                    <h6>Aquascape</h6>
+                                    <p style="color:gray text">Aquarium</p>
+                                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                                    <p>100php</p>
+                                </div>
+                                <div class="col-lg-3 text-center">
+                                    <div class="card border-0 bg-light mb-2">
+                                        <div class="card-body">
+                                            <img style="width: 250px; height: 150px;" src="../img2/black_crowntail_b.jpg" class="img-fluid" alt="crowntail">
+                                        </div>
+                                    </div>
+                                    <h6>Crown tail betta</h6>
+                                    <p style="color:gray text">Fish</p>
+                                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                                    <p>100php</p>
+                                </div>
+                                <div class="col-lg-3 text-center">
+                                    <div class="card border-0 bg-light mb-2">
+                                        <div class="card-body">
+                                            <img style="width: 250px; height: 150px;" src="../img2/copper_nemo_b.jpg" class="img-fluid" alt="nemo">
+                                        </div>
+                                    </div>
+                                    <h6>Copper Nemo betta</h6>
+                                    <p style="color:gray text">Fish</p>
+                                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                                    <p>100php</p>
+                                </div>     
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 text-center">
+                                    <div class="card border-0 bg-light mb-2">
+                                        <div class="card-body">
+                                            <img style="width: 250px; height: 150px;" src="../img2/dwarf_hairgrass.jpg" class="img-fluid" alt="hairgrass">
+                                        </div>
+                                    </div>
+                                    <h6>Hair Grass</h6>
+                                    <p style="color:gray text">Aquatic Plant</p>
+                                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                                    <p>100php</p>
+                                </div>
+                                <div class="col-lg-3 text-center">
+                                    <div class="card border-0 bg-light mb-2">
+                                        <div class="card-body">
+                                            <img style="width: 250px; height: 150px;" src="../img2/monte_carlo.jpg" class="img-fluid" alt="montecarlo">
+                                        </div>
+                                    </div>
+                                    <h6>Monte Carlo</h6>
+                                    <p style="color:gray text">Aquatic Plant</p>
+                                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                                    <p>100php</p>
+                                </div>
+                                <div class="col-lg-3 text-center">
+                                    <div class="card border-0 bg-light mb-2">
+                                        <div class="card-body">
+                                            <img style="width: 250px; height: 150px;" src="../img2/king_cobra_g.jpg" class="img-fluid" alt="kingcobra">
+                                        </div>
+                                    </div>
+                                    <h6>King Cobra</h6>
+                                    <p style="color:gray text">Fish</p>
+                                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                                    <p>100php</p>
+                                </div>
+                                <div class="col-lg-3 text-center">
+                                    <div class="card border-0 bg-light mb-2">
+                                        <div class="card-body">
+                                            <img style="width: 250px; height: 150px;" src="../img2/aquascaping2.jpg" class="img-fluid" alt="aquascape">
+                                        </div>
+                                    </div>
+                                    <h6>Aquascape</h6>
+                                    <p style="color:gray text">Aquascape</p>
+                                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                                    <p>100php</p>
+                                </div>     
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 text-center">
+                                    <div class="card border-0 bg-light mb-2">
+                                        <div class="card-body">
+                                            <img style="width: 250px; height: 150px;" src="../img2/dumbo_ear_mosaic.jpg" class="img-fluid" alt="dumbo ear mosaic">
+                                        </div>
+                                    </div>
+                                    <h6>Dumbo Ear Mosaic Guppy</h6>
+                                    <p style="color:gray text">Aquascape</p>
+                                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                                    <p>100php</p>
+                                </div>
+                                <div class="col-lg-3 text-center">
+                                    <div class="card border-0 bg-light mb-2">
+                                        <div class="card-body">
+                                            <img style="width: 250px; height: 150px;" src="../img2/dwarf_hairgrass.jpg" class="img-fluid" alt="dwarf_hairgrass">
+                                        </div>
+                                    </div>
+                                    <h6>Dwarf Hair Grass</h6>
+                                    <p style="color:gray text">Aquatic plant</p>
+                                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                                    <p>100php</p>
+                                </div>
+                                <div class="col-lg-3 text-center">
+                                    <div class="card border-0 bg-light mb-2">
+                                        <div class="card-body">
+                                            <img style="width: 250px; height: 150px;" src="../img2/goldfish2.jpg" class="img-fluid" alt="Black dotted oranda">
+                                        </div>
+                                    </div>
+                                    <h6>Black Dotted Oranda</h6>
+                                    <p style="color:gray text">Fish</p>
+                                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                                    <p>100php</p>
+                                </div>
+                                <div class="col-lg-3 text-center">
+                                    <div class="card border-0 bg-light mb-2">
+                                        <div class="card-body">
+                                            <img style="width: 250px; height: 150px;" src="../img2/hb_white_g.jpg" class="img-fluid" alt="hb white">
+                                        </div>
+                                    </div>
+                                    <h6>HB white guppy</h6>
+                                    <p style="color:gray text">Fish</p>
+                                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                                    <p>100php</p>
+                                </div>     
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 text-center">
+                                    <div class="card border-0 bg-light mb-2">
+                                        <div class="card-body">
+                                            <img style="width: 250px; height: 150px;" src="../img2/water_wisteria.jpg" class="img-fluid" alt="wistera">
+                                        </div>
+                                    </div>
+                                    <h6>Water Wisteria</h6>
+                                    <p style="color:gray text">Aquatic plant</p>
+                                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                                    <p>100php</p>
+                                </div>
+                                <div class="col-lg-3 text-center">
+                                    <div class="card border-0 bg-light mb-2">
+                                        <div class="card-body">
+                                            <img style="width: 250px; height: 150px;" src="../img2/arowana_red.jpg" class="img-fluid" alt="red arowana">
+                                        </div>
+                                    </div>
+                                    <h6>Red Arowana</h6>
+                                    <p style="color:gray text">Fish</p>
+                                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                                    <p>100php</p>
+                                </div>
+                                <div class="col-lg-3 text-center">
+                                    <div class="card border-0 bg-light mb-2">
+                                        <div class="card-body">
+                                            <img style="width: 250px; height: 150px;" src="../img2/buddha_aquascaping.jpg" class="img-fluid" alt="buddha">
+                                        </div>
+                                    </div>
+                                    <h6>Buddha Aquascape</h6>
+                                    <p style="color:gray text">Aquarium</p>
+                                    <p style="color:gray"> ★ ★ ★ ★ ★ 5.0 rating</p>
+                                    <p>100php</p>
+                                </div>
+                                <div class="col-lg-3 text-center">
+                                    <a href="shop.html"><button class="btn2 m-5">Show more</button></a> 
+                
+                                </div>
+  
+
+
+    <section class="news">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-9 m-auto text-center">
+                    <h1>JOIN THE CLUB!</h1>
+                    <input type="text" placeholder="Enter your Email">
+                    <button class="btn2">Submit</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-11">
+                    <div class="row">
+                        <div class="col-lg-3 py-3">
+                            <h5>Costumer Care</h5>
+                            <p>Regular</p>
+                            <p>On Time</p>
+                            <p>Always Care</p>
+                        </div>
+                        <div class="col-lg-3 py-3">
+                            <h5>Section</h5>
+                            <p>Cold Water</p>
+                            <p>Warm Water</p>
+                            <p>Animal Care</p>
+                        </div>
+                        <div class="col-lg-3 py-3">
+                            <h5>Features</h5>
+                            <p>Hydrophonics</p>
+                            <p>Aquaphonics</p>
+                            <p>Planet Earth</p>
+                        </div>
+                        <div class="col-lg-3 py-3">
+                            <h5>Customer Care</h5>
+                            <span><i class="fab fa-facebook"></i></span>
+                            <span><i class="fab fa-instagram"></i></span>
+                            <span><i class="fab fa-twitter"></i></span>
+                            <span><i class="fab fa-google-plus  "></i></span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+  </body>
+</html>
